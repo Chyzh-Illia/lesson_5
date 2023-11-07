@@ -55,3 +55,17 @@ body>div>ol>li#attachment2{
     font-size: smaller;
 
 }
+span.span1.git.branch{
+    color: navy;
+    font-size: xx-large;
+}
+span#spanunique{
+    color: crimson;
+    font-size: medium;
+}
+body>div>p.big.letters{
+    color: turquoise;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    text-decoration: underline;
+}
