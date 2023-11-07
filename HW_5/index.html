@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
     <h2>Види селекторів</h2>
@@ -12,6 +13,31 @@
         <li>Селектор по тегу</li>
         <li>Селектор по id</li>
     </ol>
-    
+    <p>Универсальний селектор "*" - це за його допомогою можна обнулити відступи та задати значення box-size для всіх блочних елементів.</p>
+    <p>Селектор по тегу ( div, h1-h6, p ) - це селектор CSS застосовує стилі до всіх елементів з однаковим тегом.</p>
+    <p>Будуть обрані:</p>
+    <ul>
+        <li>За назвою елемента</li>
+        <li>За id</li>
+        <li>За класом</li>
+        <li>За кількома класами</li>
+        <li>За вкладеністю</li>
+    </ul>
+    <p class="some_p">За назвою <span>елемента</span></p>
+    <span id="span1">За id</span>
+    <h3 class="text_h3">За класом</h3>
+    <h3 class="text_h3 value color">За кількома класами</h3>
+    <div>
+        <p class="attachment1">За вкладеністю</p>
+    </div>
+    <p class="some_text1">Some text <span class="anyother">anyother</span></p>
+    <p class="some_text2">Hello world one, <span class="two">two,</span> and etc.</p>
+    <span>git branch -D</span>
+    <span>git checkout -b</span>
+    <div>
+        <ol>
+            <li id="attachment2">A lot of attachmen</li>
+        </ol>
+    </div>
 </body>
 </html>

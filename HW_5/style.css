@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+}
+span{
+    color: blueviolet;
+    font-style: normal;
+}
+
+.span1{
+    color: darkgreen;
+    font-style: inherit;
+    text-decoration: underline;
+}
+.text_h3{
+    color: brown;
+    font-size: small;
+    font-style: oblique;
+}
+.text_h3.value.color{
+    color: lightsalmon;
+    font-size: x-large;
+    font-style: initial;
+}
+body>div>p.attachment1{
+    color: darkred;
+    font-size: xx-large;
+    text-decoration: underline;
+    font-style: inherit;
+}
+.some_p{
+    color: violet;
+    font-size: 40px;
+}
+p.some_text1{
+    color: bisque;
+    font-size: xx-small;
+}
+p.some_text2{
+    color: coral;
+    font-style: oblique;
+}
+span.anyother{
+    color: chartreuse;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+span.two{
+    color: aqua;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+    width: 30px;
+}
+body>div>ol>li#attachment2{
+    color: crimson;
+    font-family: monospace;
+    font-size: smaller;
+
+}
